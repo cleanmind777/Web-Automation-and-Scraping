@@ -140,7 +140,7 @@ for i in range(page_count):
                 pass
             # print(description.text)
         # print(description_detail)
-        # building["imgs"] = imgs
+        building["imgs"] = imgs
         building["property_detail"] = property_detail
         building["description_detail"] = description_detail
         buildings.append(building)
